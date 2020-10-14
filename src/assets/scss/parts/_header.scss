@@ -1,0 +1,72 @@
+header {
+  background: $gradient-bg-light;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    background: $palette-4;
+    width: 280px;
+    height: 100%;
+  }
+
+  .container {
+    flex-direction: row;
+
+    @media (min-width:768px) {
+      flex-direction: column;
+    }
+  }
+}
+
+.profile-picture {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+  box-shadow: $small-shadow;
+
+  img {
+    width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    width: 240px;
+    height: 240px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+.personal-info {
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+
+  a {
+    margin-right: 20px;
+  }
+
+  span {
+    font-weight: 700;
+    font-size: 12px;
+  }
+
+  @media (min-width: 768px) {
+    flex-direction: column;
+
+    a {
+      margin-right: 0;
+    }
+  }
+
+  @media (max-width:375px) {
+    flex-direction: column;
+  }
+}

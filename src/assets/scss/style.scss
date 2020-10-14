@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
+
+@import './variables.scss';
+@import 'parts/paper';
+@import 'parts/header';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  background: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  color: $palette-1;
+}
+
+body {
+  background: $gradient-bg;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  // flex-direction: row;
+  align-items: center;
+  flex-direction: column;
+}
+
+section {
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid $palette-4;
+}

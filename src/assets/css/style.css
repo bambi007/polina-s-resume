@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap");
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+a {
+  display: block;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+a span {
+  display: block;
+}
+
+a:hover {
+  color: #6B5C7B;
+}
+
+span {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.paper {
+  background: white;
+  width: 100%;
+  height: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .paper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .paper {
+    width: 1024px;
+    margin: 80px auto;
+    -webkit-box-shadow: 0 15px 30px #00000080;
+            box-shadow: 0 15px 30px #00000080;
+    border-radius: 5px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+header {
+  background: -webkit-gradient(linear, left top, right top, from(#F2727F), to(#FECEAA));
+  background: linear-gradient(to right, #F2727F, #FECEAA);
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  header {
+    background: #F2727F;
+    width: 280px;
+    height: 100%;
+  }
+}
+
+header .container {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media (min-width: 768px) {
+  header .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.profile-picture {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+  -webkit-box-shadow: 0 2px 4px #00000080;
+          box-shadow: 0 2px 4px #00000080;
+}
+
+.profile-picture img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .profile-picture {
+    width: 240px;
+    height: 240px;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .profile-picture {
+    display: none;
+  }
+}
+
+.personal-info {
+  margin-bottom: 20px;
+}
+
+.contact-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-info a {
+  margin-right: 20px;
+}
+
+.contact-info span {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .contact-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contact-info a {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .contact-info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  background: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  color: #2d506b;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#2d506b), to(#6B5C7B));
+  background: linear-gradient(#2d506b, #6B5C7B);
+}
+
+.container {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section {
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid #F2727F;
+}
+/*# sourceMappingURL=style.css.map */

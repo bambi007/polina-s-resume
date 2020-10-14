@@ -1,0 +1,75 @@
+// COLORS 
+
+
+// PALETTE BLUES 
+
+// $palette-1: #041B3E;
+// $palette-2: #517895;
+// $palette-3: #96AEC0;
+// $palette-4: #ebf0f4;
+// $palette-5: #ebf0f4;
+
+// PALETTE DREAM 
+
+$palette-1: #2d506b;
+$palette-2: #6B5C7B;
+$palette-3: #C06C84;
+$palette-4: #F2727F;
+$palette-5: #FECEAA;
+
+// PALETTE FUN 
+
+// $palette-1: #305D7A;
+// $palette-2: #7aaaa5;
+// $palette-3: #dadada;
+// $palette-4: #F9A36C;
+// $palette-5: #F26628;
+
+
+// ELEMENTS 
+
+$gradient-bg: linear-gradient($palette-1, $palette-2);
+$gradient-bg-light: linear-gradient(to right, $palette-4, $palette-5);
+
+$small-shadow: 0 2px 4px #00000080;
+$big-shadow: 0 15px 30px #00000080;
+
+// TYPOGRAPHY
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+a {
+  display: block;
+  transition: 0.2s;
+  margin-bottom: 5px;
+  font-weight: 500;
+
+  span {
+    display: block;
+  }
+
+  &:hover {
+    color: $palette-2;
+  }
+}
+
+span {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  transition: 0.2s;
+}
