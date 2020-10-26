@@ -398,4 +398,40 @@ section {
 .consent p {
   line-height: 18px;
 }
+
+.copyright {
+  background: #C06C84;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  padding: 5px 20px;
+}
+
+.copyright span {
+  color: white;
+}
+
+.copyright a {
+  color: white;
+  margin-bottom: 0;
+}
+
+.copyright a span {
+  display: inline;
+}
+
+.copyright a:hover {
+  color: #2d506b;
+}
+
+.copyright a:hover span {
+  color: #2d506b;
+}
 /*# sourceMappingURL=style.css.map */

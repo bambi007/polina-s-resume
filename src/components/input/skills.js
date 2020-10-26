@@ -1,3 +1,5 @@
+// Please fill in the skills according to the object structure 
+
 const skillList = [
   {
     skill: "Charles Proxy",

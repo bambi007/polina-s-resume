@@ -48,3 +48,35 @@ section {
     line-height: 18px;
   }
 }
+
+.copyright {
+  background: $palette-3;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 5px 20px;
+
+  span {
+    color: white;
+  }
+
+  a {
+    color: white;
+    margin-bottom: 0;
+
+    span {
+      display: inline;
+    }
+
+    &:hover {
+      color: $palette-1;
+
+      span {
+        color: $palette-1;
+
+      }
+    }
+
+  }
+}

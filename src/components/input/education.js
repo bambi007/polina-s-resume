@@ -1,3 +1,6 @@
+// Please fill in your education according to the object structure 
+
+
 const education = [
   {
     school: 'Volga Region State Academy',

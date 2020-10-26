@@ -7,6 +7,7 @@ import { ExperienceList } from './components/experience';
 import { Skills, GeneralSkills } from './components/skills';
 import { EducationList } from './components/education';
 import { Consent } from './components/consent';
+import { Copyright } from './components/copyright';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         </div>
 
       </div>
+      <Copyright />
     </div>
   );
 }
