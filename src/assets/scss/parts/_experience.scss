@@ -1,0 +1,49 @@
+// .experience-list {}
+
+.position {
+  border-bottom: 1px solid $palette-5;
+  padding: 20px 0;
+
+  &:last-child {
+    border: none;
+  }
+
+
+  .dates {
+    display: block;
+    color: $palette-3;
+  }
+
+  .title {
+    font-size: 18px;
+    // text-transform: capitalize;
+  }
+
+  .company {
+    text-transform: none;
+  }
+
+  .label {
+    // display: block;
+    margin-bottom: -5px;
+    font-size: 11px;
+    color: $palette-3;
+
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .tech {
+    display: inline-block;
+    background: $palette-3;
+    color: white;
+    padding: 5px 15px;
+    margin-right: 5px;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+}

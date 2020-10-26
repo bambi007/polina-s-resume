@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
 import { profilePicture, personalInfo, contactInfo } from './input/info';
+import { GeneralSkills } from './skills';
+
 
 
 export class Header extends Component {
   render() {
     return (
       <header>
-        <div className="container">
+        <div className="header-container">
           <ProfilePicture source={profilePicture} alt='profile picture' />
           <div className="info">
             <PersonalInfo name={personalInfo.name} position={personalInfo.position} />
             <ContactInfo phone={contactInfo.phone} email={contactInfo.email} />
           </div>
+          <GeneralSkills />
         </div>
       </header>
     )

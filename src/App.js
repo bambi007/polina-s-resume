@@ -4,6 +4,9 @@ import './assets/css/style.css';
 import { Header } from './components/header';
 import { Summary } from './components/summary';
 import { ExperienceList } from './components/experience';
+import { Skills, GeneralSkills } from './components/skills';
+import { EducationList } from './components/education';
+import { Consent } from './components/consent';
 
 function App() {
   return (
@@ -12,7 +15,11 @@ function App() {
         <Header />
         <div className='container'>
           <Summary />
+          <Skills />
+          <GeneralSkills />
           <ExperienceList />
+          <EducationList />
+          <Consent />
         </div>
 
       </div>

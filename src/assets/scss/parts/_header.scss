@@ -5,14 +5,22 @@ header {
   @media (min-width: 768px) {
     background: $palette-4;
     width: 280px;
-    height: 100%;
+    min-height: 100%;
   }
 
-  .container {
+  .header-container {
     flex-direction: row;
 
     @media (min-width:768px) {
       flex-direction: column;
+    }
+  }
+
+  .general-skills {
+    display: flex;
+
+    @media (max-width: 768px) {
+      display: none;
     }
   }
 }
